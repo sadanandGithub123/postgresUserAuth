@@ -1,0 +1,19 @@
+{
+  "development": {
+   "use_env_variable":"postgres://xwastlue:6B-15CQNmELCZ34LEsyvq6b7_NO7HLWc@baasu.db.elephantsql.com:5432/xwastlue"
+  },
+  "test": {
+    "username": "postgres",
+    "password": "master",
+    "database": "Auth_Test",
+    "host": "127.0.0.1",
+    "dialect": "postgres"
+  },
+  "production": {
+    "username": "postgres",
+    "password": "master",
+    "database": "Auth_Prod",
+    "host": "127.0.0.1",
+    "dialect": "postgres"
+  }
+}
